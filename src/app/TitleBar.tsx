@@ -68,8 +68,8 @@ export const TitleBar = () => {
   // Get selected app name
   const selectedApp = apps.find((app) => app.id === selectedAppId);
   const displayText = selectedApp
-    ? `App: ${selectedApp.name}`
-    : "(no app selected)";
+    ? `xkamara0 App: ${selectedApp.name}`
+    : "(xkamara0 Edition - no app selected)";
 
   const handleAppClick = () => {
     if (selectedApp) {
